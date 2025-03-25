@@ -17,3 +17,13 @@ updates:
   - 'ci-quality'
   reviewers:
   - 'microsoft/psrule-rules-caf'
+
+# Maintain dependencies for Python
+- package-ecosystem: 'pip'
+  directory: '/'
+  schedule:
+    interval: 'daily'
+  labels:
+  - 'ci-quality'
+  reviewers:
+  - 'microsoft/psrule-rules-caf'

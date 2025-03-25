@@ -61,6 +61,17 @@
             }
         },
         {
+            "label": "Serve docs",
+            "detail": "Build and run documentation site locally.",
+            "type": "shell",
+            "command": "mkdocs serve",
+            "problemMatcher": [],
+            "presentation": {
+                "clear": true,
+                "panel": "dedicated"
+            }
+        },
+        {
             "label": "build-docs",
             "type": "shell",
             "command": "Invoke-Build BuildHelp",

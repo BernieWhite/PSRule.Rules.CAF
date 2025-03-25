@@ -2,13 +2,18 @@
 
 A suite of rules to validate Azure resources against the Cloud Adoption Framework (CAF) using PSRule.
 
-![ci-badge]
+[![Open in vscode.dev](https://img.shields.io/badge/Open%20in-vscode.dev-blue)][1]
 
 Features of PSRule for CAF include:
 
-- [Ready to go](docs/features.md#ready-to-go) - Leverage configurable rules to validate Azure resources.
-- [DevOps](docs/features.md#devops) - Validate resources and infrastructure code pre or post-deployment.
-- [Cross-platform](docs/features.md#cross-platform) - Run on MacOS, Linux, and Windows.
+- [Ready to go][2] - Leverage configurable rules to validate Azure resources.
+- [DevOps][3] - Validate resources and infrastructure code pre or post-deployment.
+- [Cross-platform][4] - Run on MacOS, Linux, and Windows.
+
+  [1]: https://vscode.dev/github/microsoft/PSRule.Rules.CAF
+  [2]: docs/features.md#ready-to-go
+  [3]: docs/features.md#devops
+  [4]: docs/features.md#cross-platform
 
 ## Support
 
@@ -40,7 +45,7 @@ PSRule for CAF provides two methods for analyzing Azure resources:
 - _Pre-flight_ - Before resources are deployed from Azure Resource Manager (ARM) templates.
 - _In-flight_ - After resource are deployed to an Azure subscription.
 
-For additional details see the [FAQ](docs/features.md#frequently-asked-questions-faq).
+For additional details see the [FAQ](docs/faq.md).
 
 ### Using with GitHub Actions
 

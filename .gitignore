@@ -1,8 +1,11 @@
-
-.vs/
-reports/
-out/
+**/__pycache__/
+**/.vs/
 **/bin/
 **/obj/
+artifacts/
+build/
+reports/
+out/
+site/
 *.user
 *.diagsession
